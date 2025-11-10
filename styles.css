@@ -72,6 +72,27 @@ main {
     color: #6b38b8;
 }
 
+.about {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    color: #000000;
+    border-left: 4px solid #6b38b8;
+    border-radius: 6px;
+}
+
+.about h2 {
+    color: #6b38b8;
+    margin-bottom: 0.75rem;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.about p {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
 .latest-posts {
     max-width: 1200px;
     margin: 0 auto;
