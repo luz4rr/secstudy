@@ -6,19 +6,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000000, #2a0033);
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     line-height: 1.6;
     min-height: 100vh;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #ffffff;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -33,7 +34,7 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #9932cc;
+    color: #6b38b8;
 }
 
 nav ul {
@@ -46,13 +47,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #9932cc;
+    color: #6b38b8;
 }
 
 main {
@@ -62,13 +63,13 @@ main {
 .hero {
     text-align: center;
     padding: 4rem 2rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: #f8f8f8;
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #9932cc;
+    color: #6b38b8;
 }
 
 .latest-posts {
@@ -80,7 +81,7 @@ main {
 .latest-posts h2 {
     text-align: center;
     margin-bottom: 2rem;
-    color: #9932cc;
+    color: #6b38b8;
 }
 
 .posts-grid {
@@ -90,41 +91,44 @@ main {
 }
 
 .post-card {
-    background: rgba(0, 0, 0, 0.5);
+    background: #ffffff;
     padding: 1.5rem;
     border-radius: 8px;
-    border: 1px solid #9932cc;
+    border: 1px solid #e0e0e0;
     transition: transform 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .post-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .post-card h3 {
-    color: #9932cc;
+    color: #000000;
     margin-bottom: 1rem;
 }
 
 .read-more {
     display: inline-block;
     margin-top: 1rem;
-    color: #9932cc;
+    color: #6b38b8;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .read-more:hover {
-    color: #ffffff;
+    color: #4a2882;
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8);
+    background: #f8f8f8;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    border-top: 1px solid #e0e0e0;
 }
 
 footer p {
-    color: #ffffff;
+    color: #000000;
 }
