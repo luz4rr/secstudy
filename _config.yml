@@ -7,7 +7,7 @@ github: "github.com/luz4rr"
 url: "https://discord.gg/cyZeBsSG"
 
 plugins:
--jekyll-feed
+- jekyll-feed
 - jekyll-seo-tag
 - jukyll-sitemap
 
