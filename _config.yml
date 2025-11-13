@@ -1,20 +1,18 @@
 theme: minima
 
 author:
-  name: "luz4r"
-  github: "github.com/luz4rr"
+name: "luz4r"
+github: "github.com/luz4rr"
 
-url: "https://luz4rr.github.io/secstudy/"
+url: "https://discord.gg/cyZeBsSG"
 
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jukyll-sitemap
+-jekyll-feed
+- jekyll-seo-tag
+- jukyll-sitemap
 
 minima:
-  skin: solarized
-  social_links:
-    discord: https://discord.gg/cyZeBsSG
+skin: solarized
 
 exclude:
   - README.md
